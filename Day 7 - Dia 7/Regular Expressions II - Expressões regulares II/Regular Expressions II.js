@@ -1,16 +1,17 @@
 function regexVar() {
     /*
-     * Declare a RegExp object variable named 're'
-     * It must match a string that starts with 'Mr.', 'Mrs.', 'Ms.', 'Dr.', or 'Er.', 
-     * followed by one or more letters.
+     * Declare uma variável de objeto RegExp denominada 're'
+     * Ele deve corresponder a uma sequência que comece com 'Sr.', 'Sra.', 'Senhora', 'Dr.' ou 'Er.', 
+     * seguido de uma ou mais letras.
      */
     
       var re = (/^(Mr\.|Dr\.|Er\.|Ms\.|Mrs\.)\s?[a-z|A-Z]+$/);
-    
-    
-    
-    /*
-     * Do not remove the return statement
+  
+     /*
+     * Não remova a declaração de devolução
      */
     return re;
 }
+
+
+     
