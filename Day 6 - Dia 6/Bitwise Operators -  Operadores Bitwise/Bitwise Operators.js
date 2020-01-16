@@ -1,9 +1,10 @@
 /*
-*	Return the largest value of any a & b < k in S (where a < b).
+* Retorne o maior valor de qualquer a & b <k em S (onde a <b).
 * 	
-*	n: Set S is a sequence of distinct integers from 1 to n (i.e., {1, 2, ..., n}).
-*	k: An integer.
+* n: o conjunto S é uma sequência de números inteiros distintos de 1 a n (ou seja, {1, 2, ..., n}).
+* k: um número inteiro.
 */
+
 function getMaxLessThanK(n, k) {
     let maximum = 0;
     let current = -1;
