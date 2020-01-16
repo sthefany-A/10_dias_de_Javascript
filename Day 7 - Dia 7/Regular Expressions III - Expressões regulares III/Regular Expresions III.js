@@ -1,13 +1,14 @@
 function regexVar() {
-    /*
-     * Declare a RegExp object variable named 're'
-     * It must match ALL occurrences of numbers in a string.
+     /*
+     * Declare uma variável de objeto RegExp denominada 're'
+     * Ele deve corresponder a TODAS as ocorrências de números em uma string.
      */
     
     var re = RegExp('\\d+', 'g');
     
-    /*
-     * Do not remove the return statement
+     /*
+     * Não remova a declaração de devolução
      */
     return re;
 }
+
