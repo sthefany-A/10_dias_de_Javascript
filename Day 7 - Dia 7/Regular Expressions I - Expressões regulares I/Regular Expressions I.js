@@ -1,8 +1,8 @@
 function regexVar() {
-    /*
-     * Declare a RegExp object variable named 're'
-     * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
-     */
+     / *
+     * Declare uma variável de objeto RegExp denominada 're'
+     * Ele deve corresponder a uma sequência que começa e termina com a mesma vogal (por exemplo, {a, e, i, o, u})
+     * /
     
     var re = RegExp(/^([aeiou]).*\1$/);
     
