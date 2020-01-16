@@ -6,8 +6,8 @@ function regexVar() {
     
     var re = RegExp(/^([aeiou]).*\1$/);
     
-    /*
-     * Do not remove the return statement
-     */
+     / *
+     * Não remova a declaração de devolução
+     * /
     return re;
 }
