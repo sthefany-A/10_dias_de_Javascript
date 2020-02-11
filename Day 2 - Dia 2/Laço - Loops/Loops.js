@@ -1,7 +1,7 @@
 /*
- * Complete the vowelsAndConsonants function.
- * Print your output using 'console.log()'.
- */
+  * Complete a função vowelsAndConsonants.
+  * Imprima sua saída usando 'console.log ()'.
+ */
 function vowelsAndConsonants(s) 
 {
     var vowels = ['a', 'e', 'i', 'o', 'u']
