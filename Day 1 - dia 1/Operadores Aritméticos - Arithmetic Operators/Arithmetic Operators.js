@@ -2,7 +2,7 @@
 * Calcule a área de um retângulo.
 *
 * length: o comprimento do retângulo.
-* largura: a largura do retângulo.
+* width: a largura do retângulo.
 *
 * Retorne um número que indica a área do retângulo.
 **/
@@ -17,7 +17,7 @@ function getArea(length, width) {
 * Calcule o perímetro de um retângulo.
 *
 * length: o comprimento do retângulo.
-* largura: a largura do retângulo.
+* width: a largura do retângulo.
 *
 * Retorne um número que indica o perímetro de um retângulo.
 **/
