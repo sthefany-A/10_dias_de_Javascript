@@ -1,10 +1,10 @@
 /**
-*   Return the second largest number in the array.
-*   @param {Number[]} nums - An array of numbers.
-*   @return {Number} The second largest number in the array.
+* Retorne o segundo maior número da matriz.
+* @param {Number[]} nums - Uma matriz de números.
+* @return {Number} O segundo maior número da matriz.
 **/
 function getSecondLargest(nums) {
-    // Complete the function
+   // Complete a função
     var sorted_array = nums.sort(function (a,b) {return a - b;});
     var unique_sorted_array = sorted_array.filter(function(elem, index, self) {
         return index === self.indexOf(elem);
