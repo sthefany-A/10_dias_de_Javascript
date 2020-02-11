@@ -3,7 +3,7 @@
   *
   * Parâmetro (s):
   * objetos: uma matriz de objetos com propriedades inteiras 'x' e 'y'
- */
+ */
 function getCount(objects) {
     var count = 0;
     for (var index in objects)
