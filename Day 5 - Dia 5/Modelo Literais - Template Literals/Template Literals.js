@@ -1,12 +1,12 @@
 /*
- * Determine the original side lengths and return an array:
- * - The first element is the length of the shorter side
- * - The second element is the length of the longer side
- * 
- * Parameter(s):
- * literals: The tagged template literal's array of strings.
- * expressions: The tagged template literal's array of expression values (i.e., [area, perimeter]).
- */
+  * Determine os comprimentos laterais originais e retorne uma matriz:
+  * - O primeiro elemento é o comprimento do lado mais curto
+  * - O segundo elemento é o comprimento do lado mais longo
+  *
+  * Parâmetro (s):
+  literais: A matriz de seqüências de caracteres do literal do modelo marcado.
+  * expressões: a matriz de valores de expressão do literal do modelo marcado (ou seja, [área, perímetro]).
+*/
 function sides(literals, ...expressions) {
     var area = expressions[0];
     var perimeter = expressions[1];
