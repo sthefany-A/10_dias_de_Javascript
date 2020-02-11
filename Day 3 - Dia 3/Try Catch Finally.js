@@ -1,7 +1,7 @@
 /*
- * Complete the reverseString function
- * Use console.log() to print to stdout.
- */
+  * Complete a função reverseString
+  * Use console.log () para imprimir em stdout.
+*/
 function reverseString(s) {
     try {
         var splitString = s.split("");
@@ -11,8 +11,7 @@ function reverseString(s) {
     }
     catch (error)
         {
-            // Print s on a new line. If no exception was thrown, then this should be the reversed string; if an exception was thrown, this should be the original string.
-            console.log(error.message);
+         // Imprime s em uma nova linha. Se nenhuma exceção foi lançada, essa deve ser a sequência invertida; se uma exceção foi lançada, essa deve ser a sequência original.            console.log(error.message);
             console.log(s);
         }
     
