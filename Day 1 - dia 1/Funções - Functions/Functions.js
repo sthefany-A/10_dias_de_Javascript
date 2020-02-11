@@ -1,7 +1,6 @@
-
 /*
- * Create the function factorial here
- */
+  * Crie a função fatorial aqui
+*/
 function factorial(n)
 {
     if (n < 2)
