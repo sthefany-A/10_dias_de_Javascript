@@ -1,6 +1,6 @@
 function getLetter(s) {
     let letter;
-    // Write your code here
+    // Escreva seu código aqui
     
     switch (s.charAt(0))
         {
