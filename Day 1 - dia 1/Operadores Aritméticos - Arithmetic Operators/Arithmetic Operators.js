@@ -1,29 +1,29 @@
 /**
-*   Calculate the area of a rectangle.
+* Calcule a área de um retângulo.
 *
-*   length: The length of the rectangle.
-*   width: The width of the rectangle.
-*   
-*	Return a number denoting the rectangle's area.
+* length: o comprimento do retângulo.
+* largura: a largura do retângulo.
+*
+* Retorne um número que indica a área do retângulo.
 **/
 function getArea(length, width) {
     let area;
-    // Write your code here
+    // Escreva seu código aqui 
     area = length * width;
     return area;
 }
 
 /**
-*   Calculate the perimeter of a rectangle.
-*	
-*	length: The length of the rectangle.
-*   width: The width of the rectangle.
-*   
-*	Return a number denoting the perimeter of a rectangle.
+* Calcule o perímetro de um retângulo.
+*
+* length: o comprimento do retângulo.
+* largura: a largura do retângulo.
+*
+* Retorne um número que indica o perímetro de um retângulo.
 **/
 function getPerimeter(length, width) {
     let perimeter;
-    // Write your code here
+    // Escreva seu código aqui 
     perimeter = 2 * (length + width);
     return perimeter;
 }
