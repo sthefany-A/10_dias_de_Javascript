@@ -1,8 +1,8 @@
 /*
- * Implement a Polygon class with the following properties:
- * 1. A constructor that takes an array of integer side lengths.
- * 2. A 'perimeter' method that returns the sum of the Polygon's side lengths.
- */
+  * Implemente uma classe Polygon com as seguintes propriedades:
+  * 1. Um construtor que usa uma matriz de comprimentos laterais inteiros.
+  * 2. Um método de 'perímetro' que retorna a soma dos comprimentos laterais do polígono.
+*/
 class Polygon {
     constructor(heights) 
     {
