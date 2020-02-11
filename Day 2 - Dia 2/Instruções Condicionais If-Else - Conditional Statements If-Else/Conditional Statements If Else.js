@@ -1,7 +1,7 @@
 function getGrade(score)
 {
     let grade;
-    // Write your code here
+    // Escreva seu código aqui
     
     if ((score > 25) && (score <= 30))
     {
