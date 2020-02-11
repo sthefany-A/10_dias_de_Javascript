@@ -11,7 +11,8 @@ function reverseString(s) {
     }
     catch (error)
         {
-         // Imprime s em uma nova linha. Se nenhuma exceção foi lançada, essa deve ser a sequência invertida; se uma exceção foi lançada, essa deve ser a sequência original.            console.log(error.message);
+         // Imprime s em uma nova linha. Se nenhuma exceção foi lançada, essa deve ser a sequência invertida; se uma exceção foi lançada, essa deve ser a sequência original.            
+            console.log(error.message);
             console.log(s);
         }
     
