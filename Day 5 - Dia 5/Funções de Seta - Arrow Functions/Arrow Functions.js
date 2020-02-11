@@ -1,9 +1,9 @@
 /*
- * Modify and return the array so that all even elements are doubled and all odd elements are tripled.
- * 
- * Parameter(s):
- * nums: An array of numbers.
- */
+  * Modifique e retorne a matriz para que todos os elementos pares sejam dobrados e todos os elementos ímpares sejam triplicados.
+  *
+  * Parâmetro (s):
+  * nums: uma matriz de números.
+*/
 function modifyArray(nums) {
     const func = nums.map(function(num) {
         
