@@ -1,15 +1,15 @@
 /**
-*   A line of code that prints "Hello, World!" on a new line is provided in the editor. 
-*   Write a second line of code that prints the contents of 'parameterVariable' on a new line.
+* Uma linha de código que imprime "Olá, mundo!" em uma nova linha é fornecida no editor.
+* Escreva uma segunda linha de código que imprima o conteúdo de 'parameterVariable' em uma nova linha.
 *
-*	Parameter:
-*   parameterVariable - A string of text.
+* Parâmetro:
+* parameterVariable - Uma sequência de texto.
 **/
 function greeting(parameterVariable) {
-    // This line prints 'Hello, World!' to the console:
+    // Esta linha mostra 'Olá, mundo!' para o console:    
     console.log('Hello, World!');
     console.log(parameterVariable);
 
-    // Write a line of code that prints parameterVariable to stdout using console.log:
+// Escreva uma linha de código que imprima parameterVariable em stdout usando console.log:
     
 }
