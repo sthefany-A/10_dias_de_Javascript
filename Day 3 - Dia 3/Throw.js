@@ -1,9 +1,9 @@
 /*
- * Complete the isPositive function.
- * If 'a' is positive, return "YES".
- * If 'a' is 0, throw an Error with the message "Zero Error"
- * If 'a' is negative, throw an Error with the message "Negative Error"
- */
+  * Complete a função isPositive.
+  * Se 'a' for positivo, retorne "SIM".
+  * Se 'a' for 0, gere um erro com a mensagem "Zero Error"
+  * Se 'a' for negativo, gere um erro com a mensagem "Erro negativo"
+*/
 function isPositive(a) {
     if (a > 0)
         {
