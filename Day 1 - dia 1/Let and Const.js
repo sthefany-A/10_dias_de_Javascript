@@ -1,12 +1,12 @@
 function main() {
-    // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
+    // Escreva seu código aqui. Leia a entrada usando 'readLine ()' e imprima a saída usando 'console.log ()'.    
     const PI = Math.PI;
-    var r = parseInt(readLine());
-    // Print the area of the circle:
-    var area = PI * r * r;
+    let r = parseInt(readLine());
+    // Imprima a área do círculo:
+    let area = PI * r * r;
     console.log(area);
     
-    // Print the perimeter of the circle:
-    var perimeter = 2 * PI * r;
+    // Imprima o perímetro do círculo:
+    let perimeter = 2 * PI * r;
     console.log(perimeter);
     
